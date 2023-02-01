@@ -4,7 +4,7 @@ print("ciao ")
 @app.route('/', methods=['GET'])
 def hello_world():
     x=1
-    return(str(x+1)+"<br>"+'<h1>ciao, mondo!</h1>')
+    return(str(x+1)+"<br>"+'<h1 style="color:#ff0000">ciao, mondo!</h1>')
 
 @app.route('/en', methods=['GET'])
 def inglese():
