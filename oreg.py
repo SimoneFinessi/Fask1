@@ -4,7 +4,7 @@ app = Flask(__name__)
 import datetime
 adesso = int(datetime.datetime.now().time().hour)
 if adesso >=0:
-    buon="buongiorno"
+    buon="buongiorgio"
     immag="static/images/buongiorno.jpg"
 if adesso>=12:
      buon="buon pranzo"
